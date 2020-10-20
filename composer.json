@@ -1,17 +1,8 @@
 {
-    "name": "wcs/quete1composer",
-    "description": "quete1composer",
-    "type": "project",
-    "license": "n",
-    "minimum-stability": "stable",
-    "authors": [
-        {
-            "name": "BrunoLagasse",
-            "email": "brlagasse@gmail.com"
-        }
-    ],
-    "require": {},
+    "name": "wcs/questcomposer",
+    "description": "quest composer Odyssey",
     "autoload": {
         "psr-4": {"App\\": "src/"}
     }
 }
+
