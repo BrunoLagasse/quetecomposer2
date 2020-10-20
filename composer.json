@@ -1,0 +1,17 @@
+{
+    "name": "wcs/quete1composer",
+    "description": "quete1composer",
+    "type": "project",
+    "license": "n",
+    "minimum-stability": "stable",
+    "authors": [
+        {
+            "name": "BrunoLagasse",
+            "email": "brlagasse@gmail.com"
+        }
+    ],
+    "require": {},
+    "autoload": {
+        "psr-4": {"App\\": "src/"}
+    }
+}
