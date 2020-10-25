@@ -4,7 +4,7 @@
 
 namespace Composer\Autoload;
 
-class ComposerStaticInit7b61e010075ad8498fc0fc079c3b9417
+class ComposerStaticInit8dafb25d70a31aae9a193fbf89476450
 {
     public static $prefixLengthsPsr4 = array (
         'A' => 
@@ -20,11 +20,22 @@ class ComposerStaticInit7b61e010075ad8498fc0fc079c3b9417
         ),
     );
 
+    public static $prefixesPsr0 = array (
+        'H' => 
+        array (
+            'HelloWorld' => 
+            array (
+                0 => __DIR__ . '/..' . '/ehime/hello-world/src',
+            ),
+        ),
+    );
+
     public static function getInitializer(ClassLoader $loader)
     {
         return \Closure::bind(function () use ($loader) {
-            $loader->prefixLengthsPsr4 = ComposerStaticInit7b61e010075ad8498fc0fc079c3b9417::$prefixLengthsPsr4;
-            $loader->prefixDirsPsr4 = ComposerStaticInit7b61e010075ad8498fc0fc079c3b9417::$prefixDirsPsr4;
+            $loader->prefixLengthsPsr4 = ComposerStaticInit8dafb25d70a31aae9a193fbf89476450::$prefixLengthsPsr4;
+            $loader->prefixDirsPsr4 = ComposerStaticInit8dafb25d70a31aae9a193fbf89476450::$prefixDirsPsr4;
+            $loader->prefixesPsr0 = ComposerStaticInit8dafb25d70a31aae9a193fbf89476450::$prefixesPsr0;
 
         }, null, ClassLoader::class);
     }
